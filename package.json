@@ -1,0 +1,33 @@
+{
+  "name": "rxu-auto-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "rxu-auto": "./bin/auto.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chxuxu/rxu-auto-cli.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chxuxu/rxu-auto-cli/issues"
+  },
+  "homepage": "https://github.com/chxuxu/rxu-auto-cli#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "clear": "^0.1.0",
+    "commander": "^9.1.0",
+    "download-git-repo": "^3.0.2",
+    "figlet": "^1.5.2",
+    "handlebars": "^4.7.7",
+    "open": "^8.4.0",
+    "ora": "^5.4.1"
+  }
+}
